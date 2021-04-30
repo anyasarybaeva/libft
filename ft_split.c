@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 17:58:20 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/27 15:54:59 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:04:46 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_free(char **c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (c[i])
@@ -22,10 +22,10 @@ void	ft_free(char **c)
 	free(c);
 }
 
-int		ft_len(int i, const char *s, char c)
+int	ft_len(int i, const char *s, char c)
 {
-	int len;
-	int i3;
+	int	len;
+	int	i3;
 
 	i3 = i;
 	len = 0;
@@ -43,9 +43,9 @@ int		ft_len(int i, const char *s, char c)
 
 char	**ft_fill(const char *s, char c, int i, char **s1)
 {
-	int i3;
-	int len;
-	int i1;
+	int	i3;
+	int	len;
+	int	i1;
 
 	i1 = 0;
 	i3 = 0;
@@ -81,7 +81,7 @@ char	**ft_split(char const *s, char c)
 	while (s[i] == c && s[i])
 		i++;
 	len = ft_len(i, s, c);
-	s1 = (char**)malloc(sizeof(char*) * (len + 1));
+	s1 = (char **)malloc(sizeof(char *) * (len + 1));
 	if (!s1)
 		return (NULL);
 	s1[len] = NULL;

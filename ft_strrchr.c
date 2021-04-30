@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 19:02:51 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/18 20:15:42 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 17:55:32 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,16 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	char *s1;
+	char	*s1;
 
 	s1 = 0;
 	while (*s)
 	{
 		if (*s == c)
-			s1 = (char*)s;
+			s1 = (char *)s;
 		s++;
 	}
 	if (c == '\0')
-		s1 = (char*)s;
+		s1 = (char *)s;
 	return (s1);
 }

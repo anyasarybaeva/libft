@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 15:21:57 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/25 21:00:59 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:02:24 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	i = -1;
 	if (!s1 || !s2)
 		return (NULL);
-	len1 = ft_strlen((char*)s1);
-	len2 = ft_strlen((char*)s2);
-	s = (char*)malloc(sizeof(char) * (len1 + len2 + 1));
+	len1 = ft_strlen((char *)s1);
+	len2 = ft_strlen((char *)s2);
+	s = (char *)malloc(sizeof(char) * (len1 + len2 + 1));
 	if (!s)
 		return (NULL);
 	while (++i < len1)

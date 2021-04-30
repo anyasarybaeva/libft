@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/23 18:32:36 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/25 20:34:20 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:18:12 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strfill(int len, int m, unsigned int i, int n)
 {
-	char *num;
+	char	*num;
 
-	num = (char*)malloc(len + m + 1);
+	num = (char *)malloc(len + m + 1);
 	if (!num)
 		return (NULL);
 	if (m == 1)

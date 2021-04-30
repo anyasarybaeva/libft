@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/09 19:35:39 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/26 01:32:44 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:19:16 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_bzero(void *b, size_t len)
 	size_t			i;
 
 	i = 0;
-	b1 = (unsigned char*)b;
+	b1 = (unsigned char *)b;
 	while (len > 0)
 	{
 		b1[i] = '\0';

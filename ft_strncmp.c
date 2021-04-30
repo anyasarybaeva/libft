@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/30 18:59:01 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/17 01:38:26 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 17:57:44 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t num)
 {
-	size_t i;
-	size_t i1;
+	size_t	i;
+	size_t	i1;
 
 	i = 0;
 	if (num < 1)

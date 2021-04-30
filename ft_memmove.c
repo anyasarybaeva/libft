@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 21:50:32 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/18 22:42:30 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:10:52 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	unsigned char	*dst1;
 	unsigned char	*src1;
 
-	dst1 = (unsigned char*)dst;
-	src1 = (unsigned char*)src;
+	dst1 = (unsigned char *)dst;
+	src1 = (unsigned char *)src;
 	if (!dst1 && !src1)
 		return (0);
 	if (dst >= src)

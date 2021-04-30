@@ -6,7 +6,7 @@
 /*   By: lbones <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/09 18:27:10 by lbones            #+#    #+#             */
-/*   Updated: 2020/11/18 19:55:10 by lbones           ###   ########.fr       */
+/*   Updated: 2021/04/30 18:00:55 by lbones           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t i;
-	size_t i1;
+	size_t	i;
+	size_t	i1;
 
 	i1 = 0;
 	i = 0;
